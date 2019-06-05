@@ -1,0 +1,4 @@
+#Wed Jun 05 10:23:38 PDT 2019
+base.0=/home/sean/Desktop/dev/rn-course/android/app/build/intermediates/dex/debug/mergeDexDebug/out
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/sean/Desktop/dev/rn-course/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/sean/.gradle/caches/transforms-2/files-2.1/3cab5e3f4b3f80fbc4b4a0484166c90c/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

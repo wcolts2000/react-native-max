@@ -1,0 +1,156 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-vector-icons] /home/sean/Desktop/dev/rn-course/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.57.1] /home/sean/.gradle/caches/transforms-2/files-2.1/5ee575ab7a423eaebd7dd49c10640117/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/sean/.gradle/caches/transforms-2/files-2.1/3cab5e3f4b3f80fbc4b4a0484166c90c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/sean/.gradle/caches/transforms-2/files-2.1/f813ca67ddf5110f8db7ce0a942d71a3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/sean/.gradle/caches/transforms-2/files-2.1/8155f310f17510a90bdbde8dde00dc15/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/sean/.gradle/caches/transforms-2/files-2.1/84b15d2dc17263b2234790abf57f1e34/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/sean/.gradle/caches/transforms-2/files-2.1/27c86e204ecd39b7295060126e6d2e23/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/sean/.gradle/caches/transforms-2/files-2.1/6e64c77abb0bcfbe0c8e90704d95fe29/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/sean/.gradle/caches/transforms-2/files-2.1/c7189fa8143c33ae945384cafd682d23/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] /home/sean/.gradle/caches/transforms-2/files-2.1/935616b9c7eebce0e806b4f603a3d155/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/sean/.gradle/caches/transforms-2/files-2.1/be493159d3c9114d1d0baa66ff5d9249/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] /home/sean/.gradle/caches/transforms-2/files-2.1/a4f4773c9bf380d5c5fccbe0b818523c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/sean/.gradle/caches/transforms-2/files-2.1/bca4ee30e85bd265f75e56002d117a42/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/sean/.gradle/caches/transforms-2/files-2.1/9ef2d774e10ef8c91f2c640aed47ed3b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.5.1] /home/sean/.gradle/caches/transforms-2/files-2.1/9141fdb160fd52a14140d297358381f4/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r174650] /home/sean/.gradle/caches/transforms-2/files-2.1/b5a1ae05325ada8ddc686e1e6fbb18eb/AndroidManifest.xml:1:1-3:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/sean/.gradle/caches/transforms-2/files-2.1/d2ab069fcdbcd5f4e06dc0191d348e3e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/sean/.gradle/caches/transforms-2/files-2.1/29fe2add7a3566e9f05e2b50ccab41ba/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/sean/.gradle/caches/transforms-2/files-2.1/8ca5638de4052df303884cb0b74ecf0e/AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/sean/.gradle/caches/transforms-2/files-2.1/88d0ea25223bf2ed92665e4027d073dc/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/sean/.gradle/caches/transforms-2/files-2.1/0ed0be8c931c77961b353b68934f03fa/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:1:1-26:12
+	package
+		ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:2:5-28
+		INJECTED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.57.1] /home/sean/.gradle/caches/transforms-2/files-2.1/5ee575ab7a423eaebd7dd49c10640117/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.57.1] /home/sean/.gradle/caches/transforms-2/files-2.1/5ee575ab7a423eaebd7dd49c10640117/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:5:22-75
+application
+ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [com.facebook.react:react-native:0.57.1] /home/sean/.gradle/caches/transforms-2/files-2.1/5ee575ab7a423eaebd7dd49c10640117/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.57.1] /home/sean/.gradle/caches/transforms-2/files-2.1/5ee575ab7a423eaebd7dd49c10640117/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] /home/sean/.gradle/caches/transforms-2/files-2.1/9141fdb160fd52a14140d297358381f4/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] /home/sean/.gradle/caches/transforms-2/files-2.1/9141fdb160fd52a14140d297358381f4/AndroidManifest.xml:11:5-20
+MERGED from [org.webkit:android-jsc:r174650] /home/sean/.gradle/caches/transforms-2/files-2.1/b5a1ae05325ada8ddc686e1e6fbb18eb/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /home/sean/.gradle/caches/transforms-2/files-2.1/b5a1ae05325ada8ddc686e1e6fbb18eb/AndroidManifest.xml:2:3-17
+	android:label
+		ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:9:7-39
+	android:icon
+		ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:10:7-41
+	android:allowBackup
+		ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:name
+		ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:8:7-38
+activity#com.rn_course.MainActivity
+ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:23:7-84
+	android:name
+		ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-vector-icons] /home/sean/Desktop/dev/rn-course/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/sean/Desktop/dev/rn-course/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.1] /home/sean/.gradle/caches/transforms-2/files-2.1/5ee575ab7a423eaebd7dd49c10640117/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.1] /home/sean/.gradle/caches/transforms-2/files-2.1/5ee575ab7a423eaebd7dd49c10640117/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/sean/.gradle/caches/transforms-2/files-2.1/3cab5e3f4b3f80fbc4b4a0484166c90c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/sean/.gradle/caches/transforms-2/files-2.1/3cab5e3f4b3f80fbc4b4a0484166c90c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/sean/.gradle/caches/transforms-2/files-2.1/f813ca67ddf5110f8db7ce0a942d71a3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/sean/.gradle/caches/transforms-2/files-2.1/f813ca67ddf5110f8db7ce0a942d71a3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/sean/.gradle/caches/transforms-2/files-2.1/8155f310f17510a90bdbde8dde00dc15/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/sean/.gradle/caches/transforms-2/files-2.1/8155f310f17510a90bdbde8dde00dc15/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/sean/.gradle/caches/transforms-2/files-2.1/84b15d2dc17263b2234790abf57f1e34/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/sean/.gradle/caches/transforms-2/files-2.1/84b15d2dc17263b2234790abf57f1e34/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/sean/.gradle/caches/transforms-2/files-2.1/27c86e204ecd39b7295060126e6d2e23/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/sean/.gradle/caches/transforms-2/files-2.1/27c86e204ecd39b7295060126e6d2e23/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/sean/.gradle/caches/transforms-2/files-2.1/6e64c77abb0bcfbe0c8e90704d95fe29/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/sean/.gradle/caches/transforms-2/files-2.1/6e64c77abb0bcfbe0c8e90704d95fe29/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/sean/.gradle/caches/transforms-2/files-2.1/c7189fa8143c33ae945384cafd682d23/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/sean/.gradle/caches/transforms-2/files-2.1/c7189fa8143c33ae945384cafd682d23/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] /home/sean/.gradle/caches/transforms-2/files-2.1/935616b9c7eebce0e806b4f603a3d155/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] /home/sean/.gradle/caches/transforms-2/files-2.1/935616b9c7eebce0e806b4f603a3d155/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/sean/.gradle/caches/transforms-2/files-2.1/be493159d3c9114d1d0baa66ff5d9249/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/sean/.gradle/caches/transforms-2/files-2.1/be493159d3c9114d1d0baa66ff5d9249/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /home/sean/.gradle/caches/transforms-2/files-2.1/a4f4773c9bf380d5c5fccbe0b818523c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /home/sean/.gradle/caches/transforms-2/files-2.1/a4f4773c9bf380d5c5fccbe0b818523c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/sean/.gradle/caches/transforms-2/files-2.1/bca4ee30e85bd265f75e56002d117a42/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/sean/.gradle/caches/transforms-2/files-2.1/bca4ee30e85bd265f75e56002d117a42/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/sean/.gradle/caches/transforms-2/files-2.1/9ef2d774e10ef8c91f2c640aed47ed3b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/sean/.gradle/caches/transforms-2/files-2.1/9ef2d774e10ef8c91f2c640aed47ed3b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /home/sean/.gradle/caches/transforms-2/files-2.1/9141fdb160fd52a14140d297358381f4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /home/sean/.gradle/caches/transforms-2/files-2.1/9141fdb160fd52a14140d297358381f4/AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/sean/.gradle/caches/transforms-2/files-2.1/d2ab069fcdbcd5f4e06dc0191d348e3e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/sean/.gradle/caches/transforms-2/files-2.1/d2ab069fcdbcd5f4e06dc0191d348e3e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/sean/.gradle/caches/transforms-2/files-2.1/29fe2add7a3566e9f05e2b50ccab41ba/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/sean/.gradle/caches/transforms-2/files-2.1/29fe2add7a3566e9f05e2b50ccab41ba/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/sean/.gradle/caches/transforms-2/files-2.1/8ca5638de4052df303884cb0b74ecf0e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/sean/.gradle/caches/transforms-2/files-2.1/8ca5638de4052df303884cb0b74ecf0e/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/sean/.gradle/caches/transforms-2/files-2.1/88d0ea25223bf2ed92665e4027d073dc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/sean/.gradle/caches/transforms-2/files-2.1/88d0ea25223bf2ed92665e4027d073dc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/sean/.gradle/caches/transforms-2/files-2.1/0ed0be8c931c77961b353b68934f03fa/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/sean/.gradle/caches/transforms-2/files-2.1/0ed0be8c931c77961b353b68934f03fa/AndroidManifest.xml:20:5-44
+INJECTED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /home/sean/Desktop/dev/rn-course/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

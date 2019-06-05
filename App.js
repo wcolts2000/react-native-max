@@ -1,68 +1,49 @@
 import React from "react";
+import { connect } from "react-redux";
 import { StyleSheet, View } from "react-native";
 import PlaceList from "./src/components/placeList/PlaceList";
 import PlaceInput from "./src/components/placeInput/PlaceInput";
-import PlaceImage from "./assets/place.jpg";
 import PlaceDetail from "./src/components/PlaceDetail/PlaceDetail";
 
-export default class App extends React.Component {
-  state = {
-    places: [],
-    selectedPlace: null
-  };
+import {
+  addPlace,
+  deletePlace,
+  selectPlace,
+  deselectPlace
+} from "./src/store/actions";
 
+class App extends React.Component {
   placeSubmitHandler = placeName => {
-    this.setState(prevState => {
-      return {
-        places: prevState.places.concat({
-          key: String(Math.random()),
-          name: placeName,
-          image: PlaceImage
-        })
-      };
-    });
+    this.props.addPlace(placeName);
   };
 
   placeDeletedHandler = () => {
-    this.setState(prevState => {
-      return {
-        places: prevState.places.filter(place => {
-          return place.key !== prevState.selectedPlace.key;
-        }),
-        selectedPlace: null
-      };
-    });
+    this.props.deletePlace();
   };
 
   modalCloseHandler = () => {
-    this.setState({ selectedPlace: null });
+    this.props.deselectPlace();
   };
 
   placeSelectedHandler = key => {
-    this.setState(prevState => {
-      return {
-        selectedPlace: prevState.places.find(place => {
-          return place.key === key;
-        })
-      };
-    });
+    this.props.selectPlace(key);
   };
 
   render() {
     return (
       <View style={styles.container}>
         <PlaceDetail
-          selectedPlace={this.state.selectedPlace}
+          selectedPlace={this.props.selectedPlace}
           onItemDeleted={this.placeDeletedHandler}
           onModalClose={this.modalCloseHandler}
         />
         <PlaceInput
           placeNameChangeHandler={this.placeNameChangeHandler}
-          placeName={this.state.placeName}
+          placeName={this.props.placeName}
           addPlace={this.placeSubmitHandler}
         />
         <PlaceList
-          places={this.state.places}
+          places={this.props.places}
           onItemSelected={this.placeSelectedHandler}
         />
       </View>
@@ -80,3 +61,15 @@ const styles = StyleSheet.create({
     width: "70%"
   }
 });
+
+const mapStateToProps = ({ places: { places, selectedPlace } }) => {
+  return {
+    places,
+    selectedPlace
+  };
+};
+
+export default connect(
+  mapStateToProps,
+  { addPlace, deletePlace, selectPlace, deselectPlace }
+)(App);
